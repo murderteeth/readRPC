@@ -99,7 +99,7 @@ export function renderLandingPage(env: Env, baseUrl: string): string {
 
     <section class="mb-10">
       <h2 class="text-xl font-semibold mb-4">Example Request</h2>
-      <pre class="bg-zinc-900 rounded-lg px-4 py-3 font-mono text-sm overflow-x-auto">curl -X POST ${baseUrl}/chain/1 \\
+      <pre class="bg-zinc-900 rounded-lg px-4 py-3 font-mono text-sm overflow-x-auto">curl -v -X POST ${baseUrl}/chain/1 \\
   -H "Content-Type: application/json" \\
   -d '{
     "jsonrpc": "2.0",

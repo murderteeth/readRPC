@@ -115,7 +115,7 @@ export default function Home() {
         <section className="mb-10">
           <h2 className="text-xl font-semibold mb-4">Example Request</h2>
           <pre className="bg-zinc-900 rounded-lg px-4 py-3 font-[family-name:var(--font-geist-mono)] text-sm overflow-x-auto">
-{`curl -X POST ${baseUrl}/chain/1 \\
+{`curl -v -X POST ${baseUrl}/chain/1 \\
   -H "Content-Type: application/json" \\
   -d '{
     "jsonrpc": "2.0",
