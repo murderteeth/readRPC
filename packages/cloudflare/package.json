@@ -5,11 +5,12 @@
   "scripts": {
     "dev": "wrangler dev --remote",
     "deploy": "wrangler deploy",
+    "secrets": "grep -v '^#' .secrets | grep -v '^$' | while IFS='=' read -r key value; do echo \"$value\" | wrangler secret put \"$key\"; done",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20251231.0",
     "typescript": "5.9.3",
-    "wrangler": "4.54.0"
+    "wrangler": "^4.59.1"
   }
 }

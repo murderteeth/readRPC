@@ -1,4 +1,4 @@
-# readRPC - Vercel
+# rpc-read-proxy - Vercel
 
 Next.js/Vercel implementation of the read-only Ethereum JSON-RPC proxy.
 

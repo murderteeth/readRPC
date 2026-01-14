@@ -67,9 +67,9 @@ export default function Home() {
     <div className="min-h-screen bg-zinc-950 text-zinc-100 font-[family-name:var(--font-geist-sans)]">
       <main className="max-w-3xl mx-auto px-6 py-16">
         <header className="mb-12">
-          <h1 className="text-3xl font-semibold mb-2">readRPC</h1>
+          <h1 className="text-3xl font-semibold mb-2">Yearn RPC Read Proxy</h1>
           <p className="text-zinc-400">
-            A fast, minimal, read-only proxy for Ethereum JSON-RPC requests.
+            A minimum, cached, read-only proxy for Ethereum JSON-RPC requests, optimized for frontend.
           </p>
         </header>
 

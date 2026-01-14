@@ -59,7 +59,7 @@ export function renderLandingPage(env: Env, baseUrl: string): string {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>readRPC</title>
+  <title>Yearn RPC Read Proxy</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono&display=swap');
@@ -70,9 +70,9 @@ export function renderLandingPage(env: Env, baseUrl: string): string {
 <body class="min-h-screen bg-zinc-950 text-zinc-100">
   <main class="max-w-3xl mx-auto px-6 py-16">
     <header class="mb-12">
-      <h1 class="text-3xl font-semibold mb-2">readRPC</h1>
+      <h1 class="text-3xl font-semibold mb-2">Yearn RPC Read Proxy</h1>
       <p class="text-zinc-400">
-        A fast, minimal, read-only proxy for Ethereum JSON-RPC requests.
+        A minimum, cached, read-only proxy for Ethereum JSON-RPC requests, optimized for frontend.
       </p>
     </header>
 

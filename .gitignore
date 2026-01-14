@@ -9,9 +9,8 @@ dist/
 # env/secrets
 .env
 .env.local
-.dev.vars
-!.env.example
-!.dev.vars.example
+.secrets
+!.secrets.example
 
 # misc
 .DS_Store

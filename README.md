@@ -1,6 +1,6 @@
-# readRPC
+# rpc-read-proxy
 
-A minimal, edge-cached, read-only proxy for Ethereum JSON-RPC requests, optimized for frontend.
+A minimum, cached, read-only proxy for Ethereum JSON-RPC requests, optimized for frontend.
 
 ## Packages
 
